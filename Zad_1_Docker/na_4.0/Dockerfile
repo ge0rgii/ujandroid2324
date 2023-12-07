@@ -1,8 +1,6 @@
 # 4.0 do powyższego należy dodać najnowszego Gradle’a 
 # oraz paczkę JDBC SQLite w ramach projektu na Gradle (build.gradle)
 
-
-
 FROM ubuntu:22.04
 
 WORKDIR /app
@@ -18,9 +16,13 @@ RUN curl -s "https://get.sdkman.io" | bash
 RUN chmod a+x "$HOME/.sdkman/bin/sdkman-init.sh"
 RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && \
     sdk install java 8.0.392-zulu && \
-    sdk install kotlin && \
+    sdk install kotlin
+
+RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && \
     sdk install gradle
 
-COPY build.gradle src .
+COPY build.gradle .
+COPY src src
 
-RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && gradle build
+RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && \
+    gradle build

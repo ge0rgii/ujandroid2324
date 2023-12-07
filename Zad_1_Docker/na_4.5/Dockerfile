@@ -1,6 +1,10 @@
 # 4.5 stworzyć przykład typu HelloWorld oraz uruchomienie aplikacji 
 # przez CMD oraz gradle
 
+# mozliwosc uruchomienia przez gradle run zapewnilem w wersji na. 4.0
+# natomiast tutaj przecwiczylem multi-stage build,
+# zeby zmniejszyc rozmiar wynikowego obrazu
+
 FROM ubuntu:22.04 AS builder
 
 WORKDIR /app
@@ -16,20 +20,23 @@ RUN curl -s "https://get.sdkman.io" | bash
 RUN chmod a+x "$HOME/.sdkman/bin/sdkman-init.sh"
 RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && \
     sdk install java 8.0.392-zulu && \
-    sdk install kotlin && \
+    sdk install kotlin
+
+RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && \
     sdk install gradle
 
-COPY build.gradle src .
+COPY build.gradle .
+COPY src src
 
-RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && gradle build
+RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && \
+    gradle build
 
-FROM ubuntu/jre:edge
+FROM openjdk:8u342-jre
 
 WORKDIR /app
 
 ENV ARTIFACT_NAME=app.jar
 
-WORKDIR $APP_HOME
 COPY --from=builder /app/build/libs/$ARTIFACT_NAME .
 
 ENTRYPOINT exec java -jar ${ARTIFACT_NAME}
