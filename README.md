@@ -12,4 +12,10 @@
 
 ## Kotlin for Web, Ktor
 
+- Przeczytanie oficjalnej dokumentacji: [Ktor Documentation](https://ktor.io/docs/welcome.html)
+- Przeczytanie tutoriali ze stron: [Codersee](https://codersee.com/), [dev.to](https://dev.to/), [Baeldung](https://www.baeldung.com/) oraz [Medium](https://medium.com/)
+- Realizacja zadań z [android2324](https://github.com/kprzystalski/android2324). Rozwiązania oraz **zdjęcia po testowaniu** znajdują się w odpowiednim folderze repozytorium.
+
+## Kalkulator na Android
+
 [c.d.]
