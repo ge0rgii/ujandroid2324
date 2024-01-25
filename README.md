@@ -20,7 +20,7 @@
 
 - Przeczytanie początku kśiążki: *"Head First Android Development. 3rd Edition"* autorstwa Dawn'y Griffiths oraz David'a Griffiths
 - Przeczytanie (obejrzenie) tutoriali ze stron: [Habr](https://habr.com/) oraz [Youtube](https://youtube.com/)
-- Realizacja zadań z [android2324](https://github.com/kprzystalski/android2324). Rozwiązania oraz **zdjęcia po testowaniu** znajdują się w odpowiednim folderze repozytorium.
+- Realizacja zadań z [android2324](https://github.com/kprzystalski/android2324). Rozwiązania oraz **nagranie ekranu po testowaniu** znajdują się w odpowiednim folderze repozytorium.
 
 ### Lista zadań na Android
 
