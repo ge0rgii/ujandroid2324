@@ -1,5 +1,3 @@
 ## Nagranie ekranu po testowaniu
 
-<img src=[https://github.com/ge0rgii/ujandroid2324/assets/54500394/6447b280-64af-49ab-9444-572bc3a167a6] height="500">
-
-
+<img src=(https://github.com/ge0rgii/ujandroid2324/assets/54500394/475cb1c8-33ec-4f02-b5c8-c7954549f852) height="500">
