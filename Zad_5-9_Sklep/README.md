@@ -2,11 +2,11 @@
 
 #Zadania wykonano do następującego poziomu:
 
-Zad_5_Zakupy: 3.0-5.0
-Zad_6_Baza_danych: 3.0-4.5
-Zad_7_Siec: 3.0-4.5
-Zad_8_Logowanie: 3.0-3.5
-Zad_9_Platnosci: 3.0 (lista zakupów na backendzie)
+- Zad_5_Zakupy: 3.0-5.0
+- Zad_6_Baza_danych: 3.0-4.5
+- Zad_7_Siec: 3.0-4.5
+- Zad_8_Logowanie: 3.0-3.5
+- Zad_9_Platnosci: 3.0 (lista zakupów na backendzie)
 
 
 ## Nagrania ekranu po testowaniu
