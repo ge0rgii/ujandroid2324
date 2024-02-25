@@ -26,4 +26,8 @@
 - Przeczytanie drugiej połowy książki: *"Head First Android Development. 3rd Edition"* autorstwa Dawn'y Griffiths oraz David'a Griffiths
 - Realizacja zadań z [android2324](https://github.com/kprzystalski/android2324). Rozwiązania oraz **nagranie ekranu po testowaniu** znajdują się w odpowiednim folderze repozytorium.
 
+## Lista zadań na Android
+- Tutoriale ze stron: [dev.to](https://dev.to/) oraz [Youtube](https://youtube.com/)
+- Realizacja zadań z [android2324](https://github.com/kprzystalski/android2324). Rozwiązania, opisy oraz **nagrania ekranu po testowaniu** znajdują się w odpowiednim folderze repozytorium.
+
 [c.d.]
