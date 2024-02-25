@@ -18,6 +18,9 @@
 # Zakupy w aplikacji
 <img src="https://github.com/ge0rgii/ujandroid2324/blob/main/Zad_5-9_Sklep/Zakupy.gif?raw=true" height="400">
 
+# Wynik na backendzie po zakupach
+<img src="https://github.com/ge0rgii/ujandroid2324/blob/main/Zad_5-9_Sklep/Baza.png?raw=true" height="400">
+
 # Logowanie oraz rejestracja
 <img src="https://github.com/ge0rgii/ujandroid2324/blob/main/Zad_5-9_Sklep/Logowanie.gif?raw=true" height="400">
 
