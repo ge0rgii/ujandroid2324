@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Accent colors -->
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccentVariant">#018786</color>
+    <color name="colorOnAccent">#000000</color>
+
+    <!-- Neutral colors -->
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#121212</color>
+    <color name="colorTextOnBackground">#000000</color>
+
+    <!-- Additional UI elements -->
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDisabled">#E0E0E0</color>
+
+    <!-- Transparent -->
+    <color name="colorTransparent">#00000000</color>
+
+    <!-- Purple500 -->
+    <color name="purple_500">#6200EE</color>
+
+
+</resources>

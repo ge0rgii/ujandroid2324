@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_product" />
+
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        app:layout_constraintStart_toEndOf="@+id/img_product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_product"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorPrimaryVariant"/>
+
+    <TextView
+        android:id="@+id/tv_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price zł"
+        app:layout_constraintStart_toEndOf="@+id/img_product"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_name"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorSecondaryText"/>
+
+    <!-- Increased size of minus icon -->
+
+    <!-- Increased size of plus icon -->
+    <ImageView
+        android:id="@+id/btn_minus"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_remove_shopping_cart"
+        app:layout_constraintStart_toEndOf="@+id/img_product"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_price"
+        app:tint="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/tv_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="Liczba artykułów: 1"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_minus"
+        app:layout_constraintStart_toEndOf="@+id/btn_minus"
+        app:layout_constraintTop_toTopOf="@+id/btn_minus"
+        app:layout_constraintVertical_bias="0.529"
+        android:textColor="@color/colorTextSecondary"/>
+
+    <ImageView
+        android:id="@+id/btn_plus"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="56dp"
+        android:src="@drawable/ic_plus"
+        app:layout_constraintStart_toEndOf="@+id/tv_product_quantity"
+        app:layout_constraintTop_toTopOf="@+id/btn_minus"
+        app:tint="@color/purple_500" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
